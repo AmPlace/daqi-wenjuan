@@ -40,12 +40,15 @@ const PageStat: FC<PropsType> = (props: PropsType) => {
     }
   )
 
-  // 获取组件列表,来渲染的统计表表头
+  // 说明、标题和分组组件没有答卷值，不应该占用答卷表的列。
   const { componentList } = useGetComponentInfo() //获取组件列表
-  const columns = componentList.map(c => {
-    const { fe_id, title, props = {}, type } = c
+  const answerComponents = componentList.filter(c =>
+    ['questionInput', 'questionTextarea', 'questionRadio', 'questionCheckbox'].includes(c.type)
+  )
+  const columns = answerComponents.map(c => {
+    const { fe_id, title, props: componentProps = {}, type } = c
 
-    const colTitle = props!.title || title
+    const colTitle = componentProps.title || title
 
     return {
       //  点击选中效果
@@ -63,6 +66,7 @@ const PageStat: FC<PropsType> = (props: PropsType) => {
         </div>
       ),
       dataIndex: fe_id,
+      width: 220,
     }
   })
 
@@ -71,7 +75,13 @@ const PageStat: FC<PropsType> = (props: PropsType) => {
   const TableElem = (
     <>
       {/* 传入表头，关闭默认分页 */}
-      <Table columns={columns} dataSource={dataSource} pagination={false}></Table>
+      <Table
+        columns={columns}
+        dataSource={dataSource}
+        pagination={false}
+        scroll={{ x: Math.max(columns.length * 220, 800) }}
+        tableLayout="fixed"
+      ></Table>
       <div style={{ textAlign: 'center', marginTop: '18px' }}>
         <Pagination
           total={total} //总条数

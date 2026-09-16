@@ -4,22 +4,27 @@ import { QuestionCheckboxStatPropsType } from './interface'
 
 const StatComponent: FC<QuestionCheckboxStatPropsType> = ({ stat }) => {
   return (
-    <div style={{ width: '400px', height: '300px' }}>
+    <div style={{ width: '100%', minWidth: 0, height: '300px' }}>
       <ResponsiveContainer width="100%" height="100%">
         <BarChart
-          width={400}
-          height={300}
           data={stat}
+          layout="vertical"
           margin={{
             top: 5,
-            right: 30,
+            right: 12,
             left: 0,
             bottom: 5,
           }}
         >
           <CartesianGrid strokeDasharray="3 3" />
-          <XAxis dataKey="name" />
-          <YAxis />
+          <XAxis type="number" allowDecimals={false} />
+          <YAxis
+            type="category"
+            dataKey="name"
+            width={88}
+            tick={{ fontSize: 11 }}
+            tickFormatter={value => (value.length > 7 ? `${value.slice(0, 7)}...` : value)}
+          />
           <Tooltip />
           {/* <Legend /> */}
           <Bar dataKey="count" fill="#8884d8" />

@@ -1,0 +1,1245 @@
+{
+  "source": {
+    "fileName": "大漆非遗文创产品市场调研调查问卷（40题完整版）(1).docx",
+    "sha256": "bd4e5e1f3266d6cb1ca59656e87f688a37e3f305e4fd06300e08e07c16de7f9d"
+  },
+  "title": "大漆非遗文创产品市场调研调查问卷（40题完整版）",
+  "intro": [
+    "尊敬的受访者：",
+    "您好！本次问卷旨在调研大漆非遗文创产品的市场认知、消费偏好、购买意愿与推广需求，所有数据仅用于大学生创新创业项目市场调研分析，全程匿名、无对错答案，请根据真实情况填写。感谢您的支持！",
+    "填写预计时长：3-5分钟"
+  ],
+  "sections": [
+    {
+      "id": "section-1",
+      "title": "基础信息类",
+      "rawTitle": "一、基础信息类（1-8题）",
+      "questionRange": [
+        1,
+        8
+      ]
+    },
+    {
+      "id": "section-2",
+      "title": "大漆文化认知调研",
+      "rawTitle": "二、大漆文化认知调研（9-16题）",
+      "questionRange": [
+        9,
+        16
+      ]
+    },
+    {
+      "id": "section-3",
+      "title": "产品偏好调研",
+      "rawTitle": "三、产品偏好调研（17-28题）",
+      "questionRange": [
+        17,
+        28
+      ]
+    },
+    {
+      "id": "section-4",
+      "title": "价格与购买意愿调研",
+      "rawTitle": "四、价格与购买意愿调研（29-36题）",
+      "questionRange": [
+        29,
+        36
+      ]
+    },
+    {
+      "id": "section-5",
+      "title": "推广与建议开放题",
+      "rawTitle": "五、推广与建议开放题（37-40题）",
+      "questionRange": [
+        37,
+        40
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "number": 1,
+      "sectionId": "section-1",
+      "title": "您的性别？",
+      "rawTitle": "您的性别？",
+      "type": "single",
+      "componentType": "questionRadio",
+      "options": [
+        {
+          "value": "A",
+          "text": "男"
+        },
+        {
+          "value": "B",
+          "text": "女"
+        }
+      ],
+      "selection": "single"
+    },
+    {
+      "id": "q2",
+      "number": 2,
+      "sectionId": "section-1",
+      "title": "您的年龄段？",
+      "rawTitle": "您的年龄段？",
+      "type": "single",
+      "componentType": "questionRadio",
+      "options": [
+        {
+          "value": "A",
+          "text": "18岁以下"
+        },
+        {
+          "value": "B",
+          "text": "18-22岁"
+        },
+        {
+          "value": "C",
+          "text": "23-30岁"
+        },
+        {
+          "value": "D",
+          "text": "31-40岁"
+        },
+        {
+          "value": "E",
+          "text": "40岁以上"
+        }
+      ],
+      "selection": "single"
+    },
+    {
+      "id": "q3",
+      "number": 3,
+      "sectionId": "section-1",
+      "title": "您目前的身份？",
+      "rawTitle": "您目前的身份？",
+      "type": "single",
+      "componentType": "questionRadio",
+      "options": [
+        {
+          "value": "A",
+          "text": "在校学生"
+        },
+        {
+          "value": "B",
+          "text": "职场上班族"
+        },
+        {
+          "value": "C",
+          "text": "自由职业"
+        },
+        {
+          "value": "D",
+          "text": "个体经营者"
+        },
+        {
+          "value": "E",
+          "text": "其他"
+        }
+      ],
+      "selection": "single"
+    },
+    {
+      "id": "q4",
+      "number": 4,
+      "sectionId": "section-1",
+      "title": "您每月可支配零花钱/收入水平？",
+      "rawTitle": "您每月可支配零花钱/收入水平？",
+      "type": "single",
+      "componentType": "questionRadio",
+      "options": [
+        {
+          "value": "A",
+          "text": "1000元以内"
+        },
+        {
+          "value": "B",
+          "text": "1000-2000元"
+        },
+        {
+          "value": "C",
+          "text": "2000-3500元"
+        },
+        {
+          "value": "D",
+          "text": "3500元以上"
+        }
+      ],
+      "selection": "single"
+    },
+    {
+      "id": "q5",
+      "number": 5,
+      "sectionId": "section-1",
+      "title": "您平时是否喜欢文创、国风、非遗类产品？",
+      "rawTitle": "您平时是否喜欢文创、国风、非遗类产品？",
+      "type": "single",
+      "componentType": "questionRadio",
+      "options": [
+        {
+          "value": "A",
+          "text": "非常喜欢"
+        },
+        {
+          "value": "B",
+          "text": "比较喜欢"
+        },
+        {
+          "value": "C",
+          "text": "一般"
+        },
+        {
+          "value": "D",
+          "text": "不太喜欢"
+        },
+        {
+          "value": "E",
+          "text": "完全不感兴趣"
+        }
+      ],
+      "selection": "single"
+    },
+    {
+      "id": "q6",
+      "number": 6,
+      "sectionId": "section-1",
+      "title": "您日常购买文创产品的频率？",
+      "rawTitle": "您日常购买文创产品的频率？",
+      "type": "single",
+      "componentType": "questionRadio",
+      "options": [
+        {
+          "value": "A",
+          "text": "每月多次"
+        },
+        {
+          "value": "B",
+          "text": "每月1次"
+        },
+        {
+          "value": "C",
+          "text": "季度1-2次"
+        },
+        {
+          "value": "D",
+          "text": "半年一次"
+        },
+        {
+          "value": "E",
+          "text": "几乎不买"
+        }
+      ],
+      "selection": "single"
+    },
+    {
+      "id": "q7",
+      "number": 7,
+      "sectionId": "section-1",
+      "title": "您购买文创产品的主要场景？",
+      "rawTitle": "您购买文创产品的主要场景？（多选）",
+      "type": "multiple",
+      "componentType": "questionCheckbox",
+      "options": [
+        {
+          "value": "A",
+          "text": "日常自用"
+        },
+        {
+          "value": "B",
+          "text": "送礼纪念"
+        },
+        {
+          "value": "C",
+          "text": "收藏爱好"
+        },
+        {
+          "value": "D",
+          "text": "活动奖品"
+        },
+        {
+          "value": "E",
+          "text": "市集/展会随手购买"
+        }
+      ],
+      "selection": "multiple"
+    },
+    {
+      "id": "q8",
+      "number": 8,
+      "sectionId": "section-1",
+      "title": "您接触国风非遗文创的渠道？",
+      "rawTitle": "您接触国风非遗文创的渠道？（多选）",
+      "type": "multiple",
+      "componentType": "questionCheckbox",
+      "options": [
+        {
+          "value": "A",
+          "text": "短视频平台"
+        },
+        {
+          "value": "B",
+          "text": "电商店铺"
+        },
+        {
+          "value": "C",
+          "text": "校园市集"
+        },
+        {
+          "value": "D",
+          "text": "文创展会"
+        },
+        {
+          "value": "E",
+          "text": "朋友推荐"
+        },
+        {
+          "value": "F",
+          "text": "线下实体店"
+        }
+      ],
+      "selection": "multiple"
+    },
+    {
+      "id": "q9",
+      "number": 9,
+      "sectionId": "section-2",
+      "title": "您是否听说过福州脱胎大漆/大漆非遗工艺？",
+      "rawTitle": "您是否听说过福州脱胎大漆/大漆非遗工艺？",
+      "type": "single",
+      "componentType": "questionRadio",
+      "options": [
+        {
+          "value": "A",
+          "text": "非常了解"
+        },
+        {
+          "value": "B",
+          "text": "略有耳闻"
+        },
+        {
+          "value": "C",
+          "text": "完全没听过"
+        }
+      ],
+      "selection": "single"
+    },
+    {
+      "id": "q10",
+      "number": 10,
+      "sectionId": "section-2",
+      "title": "您对大漆非遗工艺的兴趣程度？",
+      "rawTitle": "您对大漆非遗工艺的兴趣程度？",
+      "type": "single",
+      "componentType": "questionRadio",
+      "options": [
+        {
+          "value": "A",
+          "text": "非常感兴趣"
+        },
+        {
+          "value": "B",
+          "text": "比较感兴趣"
+        },
+        {
+          "value": "C",
+          "text": "一般"
+        },
+        {
+          "value": "D",
+          "text": "兴趣较低"
+        },
+        {
+          "value": "E",
+          "text": "毫无兴趣"
+        }
+      ],
+      "selection": "single"
+    },
+    {
+      "id": "q11",
+      "number": 11,
+      "sectionId": "section-2",
+      "title": "您认为大漆文创的核心优势是什么？",
+      "rawTitle": "您认为大漆文创的核心优势是什么？（多选）",
+      "type": "multiple",
+      "componentType": "questionCheckbox",
+      "options": [
+        {
+          "value": "A",
+          "text": "非遗文化底蕴"
+        },
+        {
+          "value": "B",
+          "text": "手工工艺独特"
+        },
+        {
+          "value": "C",
+          "text": "色泽质感高级"
+        },
+        {
+          "value": "D",
+          "text": "国风颜值高"
+        },
+        {
+          "value": "E",
+          "text": "小众不撞款"
+        }
+      ],
+      "selection": "multiple"
+    },
+    {
+      "id": "q12",
+      "number": 12,
+      "sectionId": "section-2",
+      "title": "您对传统大漆产品的固有印象？",
+      "rawTitle": "您对传统大漆产品的固有印象？（多选）",
+      "type": "multiple",
+      "componentType": "questionCheckbox",
+      "options": [
+        {
+          "value": "A",
+          "text": "价格昂贵"
+        },
+        {
+          "value": "B",
+          "text": "款式老旧"
+        },
+        {
+          "value": "C",
+          "text": "不适合日常使用"
+        },
+        {
+          "value": "D",
+          "text": "工艺精致"
+        },
+        {
+          "value": "E",
+          "text": "适合收藏送礼"
+        }
+      ],
+      "selection": "multiple"
+    },
+    {
+      "id": "q13",
+      "number": 13,
+      "sectionId": "section-2",
+      "title": "您是否愿意了解大漆工艺制作过程？",
+      "rawTitle": "您是否愿意了解大漆工艺制作过程？",
+      "type": "single",
+      "componentType": "questionRadio",
+      "options": [
+        {
+          "value": "A",
+          "text": "非常愿意"
+        },
+        {
+          "value": "B",
+          "text": "愿意"
+        },
+        {
+          "value": "C",
+          "text": "无所谓"
+        },
+        {
+          "value": "D",
+          "text": "不愿意"
+        }
+      ],
+      "selection": "single"
+    },
+    {
+      "id": "q14",
+      "number": 14,
+      "sectionId": "section-2",
+      "title": "您是否支持非遗工艺年轻化、文创化改造？",
+      "rawTitle": "您是否支持非遗工艺年轻化、文创化改造？",
+      "type": "single",
+      "componentType": "questionRadio",
+      "options": [
+        {
+          "value": "A",
+          "text": "强烈支持"
+        },
+        {
+          "value": "B",
+          "text": "支持"
+        },
+        {
+          "value": "C",
+          "text": "中立"
+        },
+        {
+          "value": "D",
+          "text": "不支持"
+        }
+      ],
+      "selection": "single"
+    },
+    {
+      "id": "q15",
+      "number": 15,
+      "sectionId": "section-2",
+      "title": "您觉得大漆文创最需要改善的点？",
+      "rawTitle": "您觉得大漆文创最需要改善的点？（多选）",
+      "type": "multiple",
+      "componentType": "questionCheckbox",
+      "options": [
+        {
+          "value": "A",
+          "text": "降低价格"
+        },
+        {
+          "value": "B",
+          "text": "优化款式设计"
+        },
+        {
+          "value": "C",
+          "text": "适配日常使用"
+        },
+        {
+          "value": "D",
+          "text": "加强科普宣传"
+        },
+        {
+          "value": "E",
+          "text": "提升包装质感"
+        }
+      ],
+      "selection": "multiple"
+    },
+    {
+      "id": "q16",
+      "number": 16,
+      "sectionId": "section-2",
+      "title": "您是否会因为「非遗文化背书」优先选择大漆文创？",
+      "rawTitle": "您是否会因为「非遗文化背书」优先选择大漆文创？",
+      "type": "single",
+      "componentType": "questionRadio",
+      "options": [
+        {
+          "value": "A",
+          "text": "一定会"
+        },
+        {
+          "value": "B",
+          "text": "可能会"
+        },
+        {
+          "value": "C",
+          "text": "不确定"
+        },
+        {
+          "value": "D",
+          "text": "基本不会"
+        }
+      ],
+      "selection": "single"
+    },
+    {
+      "id": "q17",
+      "number": 17,
+      "sectionId": "section-3",
+      "title": "以下大漆文创产品，您最感兴趣的是？",
+      "rawTitle": "以下大漆文创产品，您最感兴趣的是？（多选）",
+      "type": "multiple",
+      "componentType": "questionCheckbox",
+      "options": [
+        {
+          "value": "A",
+          "text": "大漆书签"
+        },
+        {
+          "value": "B",
+          "text": "大漆漆扇"
+        },
+        {
+          "value": "C",
+          "text": "大漆钥匙扣"
+        },
+        {
+          "value": "D",
+          "text": "大件漆艺摆件"
+        },
+        {
+          "value": "E",
+          "text": "文创套装礼盒"
+        }
+      ],
+      "selection": "multiple"
+    },
+    {
+      "id": "q18",
+      "number": 18,
+      "sectionId": "section-3",
+      "title": "您更偏好哪种风格的大漆文创？",
+      "rawTitle": "您更偏好哪种风格的大漆文创？",
+      "type": "single",
+      "componentType": "questionRadio",
+      "options": [
+        {
+          "value": "A",
+          "text": "简约现代风"
+        },
+        {
+          "value": "B",
+          "text": "传统国风古风"
+        },
+        {
+          "value": "C",
+          "text": "小众艺术轻奢风"
+        },
+        {
+          "value": "D",
+          "text": "可爱治愈风"
+        }
+      ],
+      "selection": "single"
+    },
+    {
+      "id": "q19",
+      "number": 19,
+      "sectionId": "section-3",
+      "title": "您是否能接受「瑕疵半成品二次改造」的大漆衍生品（钥匙扣等）？",
+      "rawTitle": "您是否能接受「瑕疵半成品二次改造」的大漆衍生品（钥匙扣等）？",
+      "type": "single",
+      "componentType": "questionRadio",
+      "options": [
+        {
+          "value": "A",
+          "text": "完全接受，更有特色"
+        },
+        {
+          "value": "B",
+          "text": "可以接受"
+        },
+        {
+          "value": "C",
+          "text": "介意，追求完美品"
+        },
+        {
+          "value": "D",
+          "text": "非常介意"
+        }
+      ],
+      "selection": "single"
+    },
+    {
+      "id": "q20",
+      "number": 20,
+      "sectionId": "section-3",
+      "title": "您购买文创产品最看重的因素？",
+      "rawTitle": "您购买文创产品最看重的因素？（多选）",
+      "type": "multiple",
+      "componentType": "questionCheckbox",
+      "options": [
+        {
+          "value": "A",
+          "text": "颜值外观"
+        },
+        {
+          "value": "B",
+          "text": "价格性价比"
+        },
+        {
+          "value": "C",
+          "text": "工艺质感"
+        },
+        {
+          "value": "D",
+          "text": "文化寓意"
+        },
+        {
+          "value": "E",
+          "text": "实用性"
+        },
+        {
+          "value": "F",
+          "text": "独特小众性"
+        }
+      ],
+      "selection": "multiple"
+    },
+    {
+      "id": "q21",
+      "number": 21,
+      "sectionId": "section-3",
+      "title": "您对大漆文创产品实用性的重视程度？",
+      "rawTitle": "您对大漆文创产品实用性的重视程度？",
+      "type": "single",
+      "componentType": "questionRadio",
+      "options": [
+        {
+          "value": "A",
+          "text": "极高"
+        },
+        {
+          "value": "B",
+          "text": "较高"
+        },
+        {
+          "value": "C",
+          "text": "一般"
+        },
+        {
+          "value": "D",
+          "text": "较低"
+        },
+        {
+          "value": "E",
+          "text": "不看重"
+        }
+      ],
+      "selection": "single"
+    },
+    {
+      "id": "q22",
+      "number": 22,
+      "sectionId": "section-3",
+      "title": "您最喜欢的文创产品呈现形式？",
+      "rawTitle": "您最喜欢的文创产品呈现形式？",
+      "type": "single",
+      "componentType": "questionRadio",
+      "options": [
+        {
+          "value": "A",
+          "text": "单品简约款"
+        },
+        {
+          "value": "B",
+          "text": "组合套装礼盒"
+        },
+        {
+          "value": "C",
+          "text": "盲盒款式"
+        },
+        {
+          "value": "D",
+          "text": "定制专属款"
+        }
+      ],
+      "selection": "single"
+    },
+    {
+      "id": "q23",
+      "number": 23,
+      "sectionId": "section-3",
+      "title": "您是否喜欢带有非遗科普卡片的文创产品？",
+      "rawTitle": "您是否喜欢带有非遗科普卡片的文创产品？",
+      "type": "single",
+      "componentType": "questionRadio",
+      "options": [
+        {
+          "value": "A",
+          "text": "非常喜欢"
+        },
+        {
+          "value": "B",
+          "text": "喜欢"
+        },
+        {
+          "value": "C",
+          "text": "无所谓"
+        },
+        {
+          "value": "D",
+          "text": "不喜欢"
+        }
+      ],
+      "selection": "single"
+    },
+    {
+      "id": "q24",
+      "number": 24,
+      "sectionId": "section-3",
+      "title": "您对大漆产品配色的偏好？",
+      "rawTitle": "您对大漆产品配色的偏好？",
+      "type": "single",
+      "componentType": "questionRadio",
+      "options": [
+        {
+          "value": "A",
+          "text": "经典黑金红传统色"
+        },
+        {
+          "value": "B",
+          "text": "莫兰迪浅色系"
+        },
+        {
+          "value": "C",
+          "text": "撞色潮流色系"
+        },
+        {
+          "value": "D",
+          "text": "自然原木底色"
+        }
+      ],
+      "selection": "single"
+    },
+    {
+      "id": "q25",
+      "number": 25,
+      "sectionId": "section-3",
+      "title": "您是否愿意购买手工制作的大漆文创？",
+      "rawTitle": "您是否愿意购买手工制作的大漆文创？",
+      "type": "single",
+      "componentType": "questionRadio",
+      "options": [
+        {
+          "value": "A",
+          "text": "非常愿意"
+        },
+        {
+          "value": "B",
+          "text": "愿意"
+        },
+        {
+          "value": "C",
+          "text": "随缘"
+        },
+        {
+          "value": "D",
+          "text": "不愿意"
+        }
+      ],
+      "selection": "single"
+    },
+    {
+      "id": "q26",
+      "number": 26,
+      "sectionId": "section-3",
+      "title": "您认为大漆文创适合作为什么场景的礼品？",
+      "rawTitle": "您认为大漆文创适合作为什么场景的礼品？（多选）",
+      "type": "multiple",
+      "componentType": "questionCheckbox",
+      "options": [
+        {
+          "value": "A",
+          "text": "同学朋友送礼"
+        },
+        {
+          "value": "B",
+          "text": "节日礼物"
+        },
+        {
+          "value": "C",
+          "text": "师生赠礼"
+        },
+        {
+          "value": "D",
+          "text": "商务小礼品"
+        },
+        {
+          "value": "E",
+          "text": "纪念收藏"
+        }
+      ],
+      "selection": "multiple"
+    },
+    {
+      "id": "q27",
+      "number": 27,
+      "sectionId": "section-3",
+      "title": "您是否会因为产品「小众原创、非遗手工」产生购买欲？",
+      "rawTitle": "您是否会因为产品「小众原创、非遗手工」产生购买欲？",
+      "type": "single",
+      "componentType": "questionRadio",
+      "options": [
+        {
+          "value": "A",
+          "text": "会，非常加分"
+        },
+        {
+          "value": "B",
+          "text": "略有影响"
+        },
+        {
+          "value": "C",
+          "text": "无影响"
+        },
+        {
+          "value": "D",
+          "text": "不在意"
+        }
+      ],
+      "selection": "single"
+    },
+    {
+      "id": "q28",
+      "number": 28,
+      "sectionId": "section-3",
+      "title": "您最不喜欢文创产品的问题？",
+      "rawTitle": "您最不喜欢文创产品的问题？（多选）",
+      "type": "multiple",
+      "componentType": "questionCheckbox",
+      "options": [
+        {
+          "value": "A",
+          "text": "价格虚高"
+        },
+        {
+          "value": "B",
+          "text": "华而不实无实用性"
+        },
+        {
+          "value": "C",
+          "text": "款式同质化严重"
+        },
+        {
+          "value": "D",
+          "text": "做工粗糙"
+        },
+        {
+          "value": "E",
+          "text": "包装简陋"
+        }
+      ],
+      "selection": "multiple"
+    },
+    {
+      "id": "q29",
+      "number": 29,
+      "sectionId": "section-4",
+      "title": "对于大漆书签/钥匙扣小件产品，您可接受的单价区间？",
+      "rawTitle": "对于大漆书签/钥匙扣小件产品，您可接受的单价区间？",
+      "type": "single",
+      "componentType": "questionRadio",
+      "options": [
+        {
+          "value": "A",
+          "text": "20元以内"
+        },
+        {
+          "value": "B",
+          "text": "20-40元"
+        },
+        {
+          "value": "C",
+          "text": "40-60元"
+        },
+        {
+          "value": "D",
+          "text": "60元以上"
+        }
+      ],
+      "selection": "single"
+    },
+    {
+      "id": "q30",
+      "number": 30,
+      "sectionId": "section-4",
+      "title": "对于大漆漆扇/套装产品，您可接受的单价区间？",
+      "rawTitle": "对于大漆漆扇/套装产品，您可接受的单价区间？",
+      "type": "single",
+      "componentType": "questionRadio",
+      "options": [
+        {
+          "value": "A",
+          "text": "50元以内"
+        },
+        {
+          "value": "B",
+          "text": "50-80元"
+        },
+        {
+          "value": "C",
+          "text": "80-120元"
+        },
+        {
+          "value": "D",
+          "text": "120元以上"
+        }
+      ],
+      "selection": "single"
+    },
+    {
+      "id": "q31",
+      "number": 31,
+      "sectionId": "section-4",
+      "title": "您是否愿意为非遗手工工艺支付适度溢价？",
+      "rawTitle": "您是否愿意为非遗手工工艺支付适度溢价？",
+      "type": "single",
+      "componentType": "questionRadio",
+      "options": [
+        {
+          "value": "A",
+          "text": "完全愿意"
+        },
+        {
+          "value": "B",
+          "text": "可以接受小幅溢价"
+        },
+        {
+          "value": "C",
+          "text": "不太接受"
+        },
+        {
+          "value": "D",
+          "text": "完全不接受"
+        }
+      ],
+      "selection": "single"
+    },
+    {
+      "id": "q32",
+      "number": 32,
+      "sectionId": "section-4",
+      "title": "线上看到大漆文创产品，您的购买概率？",
+      "rawTitle": "线上看到大漆文创产品，您的购买概率？",
+      "type": "single",
+      "componentType": "questionRadio",
+      "options": [
+        {
+          "value": "A",
+          "text": "一定会买"
+        },
+        {
+          "value": "B",
+          "text": "大概率会"
+        },
+        {
+          "value": "C",
+          "text": "看价格款式决定"
+        },
+        {
+          "value": "D",
+          "text": "基本不会"
+        }
+      ],
+      "selection": "single"
+    },
+    {
+      "id": "q33",
+      "number": 33,
+      "sectionId": "section-4",
+      "title": "线下校园市集/文创展会看到大漆产品，您是否会驻足了解或购买？",
+      "rawTitle": "线下校园市集/文创展会看到大漆产品，您是否会驻足了解或购买？",
+      "type": "single",
+      "componentType": "questionRadio",
+      "options": [
+        {
+          "value": "A",
+          "text": "一定会了解购买"
+        },
+        {
+          "value": "B",
+          "text": "会驻足了解"
+        },
+        {
+          "value": "C",
+          "text": "随缘"
+        },
+        {
+          "value": "D",
+          "text": "不会关注"
+        }
+      ],
+      "selection": "single"
+    },
+    {
+      "id": "q34",
+      "number": 34,
+      "sectionId": "section-4",
+      "title": "您优先选择的购买渠道？",
+      "rawTitle": "您优先选择的购买渠道？（多选）",
+      "type": "multiple",
+      "componentType": "questionCheckbox",
+      "options": [
+        {
+          "value": "A",
+          "text": "线上店铺"
+        },
+        {
+          "value": "B",
+          "text": "校园市集"
+        },
+        {
+          "value": "C",
+          "text": "文创展会"
+        },
+        {
+          "value": "D",
+          "text": "线下实体店"
+        },
+        {
+          "value": "E",
+          "text": "社群团购"
+        }
+      ],
+      "selection": "multiple"
+    },
+    {
+      "id": "q35",
+      "number": 35,
+      "sectionId": "section-4",
+      "title": "短视频图文科普种草后，您的购买意愿？",
+      "rawTitle": "短视频图文科普种草后，您的购买意愿？",
+      "type": "single",
+      "componentType": "questionRadio",
+      "options": [
+        {
+          "value": "A",
+          "text": "大幅提升"
+        },
+        {
+          "value": "B",
+          "text": "小幅提升"
+        },
+        {
+          "value": "C",
+          "text": "无变化"
+        },
+        {
+          "value": "D",
+          "text": "反而降低"
+        }
+      ],
+      "selection": "single"
+    },
+    {
+      "id": "q36",
+      "number": 36,
+      "sectionId": "section-4",
+      "title": "您是否愿意复购优质大漆文创产品？",
+      "rawTitle": "您是否愿意复购优质大漆文创产品？",
+      "type": "single",
+      "componentType": "questionRadio",
+      "options": [
+        {
+          "value": "A",
+          "text": "一定会复购"
+        },
+        {
+          "value": "B",
+          "text": "可能复购"
+        },
+        {
+          "value": "C",
+          "text": "不确定"
+        },
+        {
+          "value": "D",
+          "text": "不会复购"
+        }
+      ],
+      "selection": "single"
+    },
+    {
+      "id": "q37",
+      "number": 37,
+      "sectionId": "section-5",
+      "title": "您最容易被哪种宣传方式吸引？",
+      "rawTitle": "您最容易被哪种宣传方式吸引？（多选）",
+      "type": "multiple",
+      "componentType": "questionCheckbox",
+      "options": [
+        {
+          "value": "A",
+          "text": "工艺制作短视频"
+        },
+        {
+          "value": "B",
+          "text": "高颜值产品实拍图"
+        },
+        {
+          "value": "C",
+          "text": "非遗文化科普"
+        },
+        {
+          "value": "D",
+          "text": "市集线下体验"
+        },
+        {
+          "value": "E",
+          "text": "优惠活动福利"
+        }
+      ],
+      "selection": "multiple"
+    },
+    {
+      "id": "q38",
+      "number": 38,
+      "sectionId": "section-5",
+      "title": "您希望我们新增哪些大漆文创品类？",
+      "rawTitle": "您希望我们新增哪些大漆文创品类？（多选）",
+      "type": "multiple",
+      "componentType": "questionCheckbox",
+      "options": [
+        {
+          "value": "A",
+          "text": "文具类"
+        },
+        {
+          "value": "B",
+          "text": "配饰挂件类"
+        },
+        {
+          "value": "C",
+          "text": "桌面摆件类"
+        },
+        {
+          "value": "D",
+          "text": "礼盒套装类"
+        },
+        {
+          "value": "E",
+          "text": "定制专属类"
+        }
+      ],
+      "selection": "multiple"
+    },
+    {
+      "id": "q39",
+      "number": 39,
+      "sectionId": "section-5",
+      "title": "对于本项目「瑕疵大漆半成品二次改造、环保再利用」模式，您的看法？",
+      "rawTitle": "对于本项目「瑕疵大漆半成品二次改造、环保再利用」模式，您的看法？",
+      "type": "single",
+      "componentType": "questionRadio",
+      "options": [
+        {
+          "value": "A",
+          "text": "非常认可，环保创新"
+        },
+        {
+          "value": "B",
+          "text": "比较认可"
+        },
+        {
+          "value": "C",
+          "text": "无所谓"
+        },
+        {
+          "value": "D",
+          "text": "不认可"
+        }
+      ],
+      "selection": "single"
+    },
+    {
+      "id": "q40",
+      "number": 40,
+      "sectionId": "section-5",
+      "title": "您对大漆非遗文创产品的设计、价格、宣传、服务有什么宝贵建议？",
+      "rawTitle": "您对大漆非遗文创产品的设计、价格、宣传、服务有什么宝贵建议？（开放题，请简要填写）",
+      "type": "text",
+      "componentType": "questionTextarea",
+      "options": [],
+      "inputHint": "开放题，请简要填写"
+    }
+  ],
+  "ending": "问卷到此结束，再次感谢您的耐心填写！",
+  "mapping": {
+    "componentTypes": {
+      "questionRadio": 27,
+      "questionCheckbox": 12,
+      "questionTextarea": 1
+    },
+    "unsupportedQuestionTypes": [],
+    "notes": [
+      "题目 40 为开放题，已映射到 questionTextarea。",
+      "题目中的“（多选）”已转换为 questionCheckbox，其余选择题转换为 questionRadio。"
+    ]
+  }
+}

@@ -24,3 +24,15 @@ export async function getComponentStatService(
   const data = (await axios.get(url)) as ResDataType
   return data
 }
+
+// Fetch option counts for every answer component in one request. This is used
+// by the all-question overview to avoid an N+1 request pattern.
+export async function getQuestionSummaryService(questionId: string): Promise<ResDataType> {
+  const url = `/api/stat/${questionId}/summary`
+  const data = (await axios.get(url)) as ResDataType
+  return data
+}
+
+// Kept as a descriptive alias for callers that distinguish list and summary
+// statistics explicitly.
+export const getQuestionStatSummaryService = getQuestionSummaryService

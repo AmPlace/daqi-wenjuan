@@ -18,6 +18,9 @@
 .env.test.local
 .env.production.local
 
+# local document extraction scratch files
+.tmp/
+
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*

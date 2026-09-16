@@ -1,0 +1,268 @@
+.container {
+  min-width: 0;
+  padding: 20px;
+  background: #f5f7fa;
+  color: #25272b;
+  letter-spacing: 0;
+}
+
+.summaryHeader {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 16px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid #e4e7eb;
+
+  h2 {
+    margin: 3px 0 0;
+    color: #202226;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.3;
+  }
+}
+
+.eyebrow {
+  color: #7d8792;
+  font-size: 12px;
+  line-height: 1;
+}
+
+.headerMetrics {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 12px;
+  color: #7d8792;
+  font-size: 13px;
+
+  strong {
+    color: #2588e8;
+    font-size: 18px;
+    font-weight: 600;
+  }
+}
+
+.errorBanner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 14px;
+  padding: 9px 12px;
+  border: 1px solid #ffd591;
+  background: #fffbe6;
+  color: #8b5e00;
+  font-size: 13px;
+}
+
+.loadingState {
+  display: flex;
+  min-height: 180px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: #7d8792;
+  font-size: 13px;
+}
+
+.questionGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+  gap: 12px;
+  align-items: start;
+}
+
+.questionCard {
+  min-width: 0;
+  overflow: hidden;
+  border: 1px solid #e2e6eb;
+  border-radius: 6px;
+  background: #fff;
+}
+
+.questionHeader {
+  display: grid;
+  grid-template-columns: 34px minmax(0, 1fr) auto;
+  gap: 10px;
+  align-items: center;
+  min-height: 58px;
+  padding: 10px 12px;
+  border-bottom: 1px solid #edf0f2;
+}
+
+.questionNumber {
+  display: grid;
+  width: 28px;
+  height: 28px;
+  place-items: center;
+  border-radius: 50%;
+  background: #edf6ff;
+  color: #2588e8;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.questionHeading {
+  min-width: 0;
+
+  h3 {
+    margin: 0;
+    overflow-wrap: anywhere;
+    color: #303238;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.45;
+  }
+
+  span {
+    color: #9aa1aa;
+    font-size: 12px;
+  }
+}
+
+.answerMetric {
+  flex: none;
+  color: #2588e8;
+  font-size: 17px;
+  font-weight: 600;
+  white-space: nowrap;
+
+  small {
+    margin-left: 2px;
+    color: #7d8792;
+    font-size: 12px;
+    font-weight: 400;
+  }
+}
+
+.optionTableWrapper {
+  overflow-x: auto;
+}
+
+.optionTable {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  font-size: 13px;
+
+  th,
+  td {
+    padding: 7px 10px;
+    border-bottom: 1px solid #f0f1f3;
+    line-height: 1.35;
+    text-align: left;
+    overflow-wrap: anywhere;
+  }
+
+  th {
+    background: #fafbfc;
+    color: #818a95;
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  th:first-child,
+  td:first-child {
+    width: auto;
+  }
+
+  th:nth-child(2),
+  td:nth-child(2) {
+    width: 52px;
+    text-align: right;
+  }
+
+  th:nth-child(3),
+  td:nth-child(3) {
+    width: 54px;
+    color: #7d8792;
+    text-align: right;
+  }
+
+  tbody tr:last-child td {
+    border-bottom: 0;
+  }
+}
+
+.noData {
+  padding: 18px 12px;
+  color: #9aa1aa;
+  font-size: 13px;
+  text-align: center;
+}
+
+.textQuestionSummary {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 7px;
+  padding: 15px 12px;
+  color: #818a95;
+  font-size: 13px;
+
+  strong {
+    color: #2588e8;
+    font-size: 18px;
+  }
+}
+
+.textHint {
+  width: 100%;
+  color: #a0a6ad;
+  font-size: 12px;
+}
+
+@media (max-width: 700px) {
+  .container {
+    padding: 14px 12px 28px;
+  }
+
+  .summaryHeader {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 12px;
+
+    h2 {
+      font-size: 20px;
+    }
+  }
+
+  .headerMetrics {
+    justify-content: flex-start;
+  }
+
+  .questionGrid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 10px;
+  }
+
+  .questionHeader {
+    grid-template-columns: 30px minmax(0, 1fr) auto;
+    gap: 8px;
+    min-height: 54px;
+    padding: 8px 10px;
+  }
+
+  .questionNumber {
+    width: 26px;
+    height: 26px;
+    font-size: 12px;
+  }
+
+  .questionHeading h3 {
+    font-size: 13px;
+  }
+
+  .optionTable {
+    font-size: 12px;
+
+    th,
+    td {
+      padding: 7px 8px;
+    }
+  }
+}
